@@ -95,12 +95,12 @@ const translations = {
 };
 
 const carData = [
-    { id: 1, name: 'Dacia Logan', type_fr: 'Économique', type_en: 'Economy', type_ar: 'اقتصادية', price: 250, img: 'https://images.unsplash.com/photo-1619103444050-25e24391e604?auto=format&fit=crop&q=80&w=600', cat: 'economy' },
+    { id: 1, name: 'Dacia Logan', type_fr: 'Économique', type_en: 'Economy', type_ar: 'اقتصادية', price: 250, img: 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=600', cat: 'economy' },
     { id: 2, name: 'Renault Clio 5', type_fr: 'Citadine', type_en: 'City Car', type_ar: 'حضرية', price: 350, img: 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=600', cat: 'citadine' },
-    { id: 3, name: 'Peugeot 208', type_fr: 'Citadine', type_en: 'City Car', type_ar: 'حضرية', price: 350, img: 'https://images.unsplash.com/photo-1632243193444-93c623351f7e?auto=format&fit=crop&q=80&w=600', cat: 'citadine' },
-    { id: 4, name: 'Dacia Sandero Stepway', type_fr: 'Économique', type_en: 'Economy', type_ar: 'اقتصادية', price: 300, img: 'https://images.unsplash.com/photo-1619103444050-25e24391e604?auto=format&fit=crop&q=80&w=600', cat: 'economy' },
-    { id: 5, name: 'Fiat 500', type_fr: 'Citadine', type_en: 'City Car', type_ar: 'حضرية', price: 300, img: 'https://images.unsplash.com/photo-1517672651691-24622a91b550?auto=format&fit=crop&q=80&w=600', cat: 'citadine' },
-    { id: 6, name: 'Hyundai Accent', type_fr: 'Familiale', type_en: 'Family', type_ar: 'عائلية', price: 400, img: 'https://images.unsplash.com/photo-1709403328475-68045610817c?auto=format&fit=crop&q=80&w=600', cat: 'family' }
+    { id: 3, name: 'Peugeot 208', type_fr: 'Citadine', type_en: 'City Car', type_ar: 'حضرية', price: 350, img: 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=600', cat: 'citadine' },
+    { id: 4, name: 'Dacia Sandero Stepway', type_fr: 'Économique', type_en: 'Economy', type_ar: 'اقتصادية', price: 300, img: 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=600', cat: 'economy' },
+    { id: 5, name: 'Fiat 500', type_fr: 'Citadine', type_en: 'City Car', type_ar: 'حضرية', price: 300, img: 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=600', cat: 'citadine' },
+    { id: 6, name: 'Hyundai Accent', type_fr: 'Familiale', type_en: 'Family', type_ar: 'عائلية', price: 400, img: 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=600', cat: 'family' }
 ];
 
 function initApp() {
