@@ -50,6 +50,31 @@
     font-family: 'Noto Sans Arabic', 'Inter', sans-serif;
 }
 
+/* Fix for icons and arrows in RTL */
+[dir="rtl"] .lucide-chevron-right {
+    transform: rotate(180deg);
+}
+
+[dir="rtl"] .lucide-arrow-right {
+    transform: rotate(180deg);
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    h1 {
+        font-size: 2.5rem !important;
+        line-height: 1.2 !important;
+    }
+    section {
+        padding-top: 4rem !important;
+        padding-bottom: 4rem !important;
+    }
+}
+
 .custom-scrollbar::-webkit-scrollbar { width: 6px; }
 .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
 .custom-scrollbar::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 10px; }
